@@ -12,7 +12,7 @@ class PenguinViewController: UIViewController {
     init() {
         super.init(nibName: "PenguinViewController", bundle: nil)
         self.tabBarItem.image = UIImage(named:"pinguino")
-        self.title="Penguin"
+        self.title = NSLocalizedString("title_penguin" , comment: "")
         
     }
     

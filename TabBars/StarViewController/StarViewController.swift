@@ -13,7 +13,7 @@ class StarViewController: UIViewController {
     init() {
         super.init(nibName: "StarViewController", bundle: nil)
         self.tabBarItem.image = UIImage(named:"star")
-        self.title="Mensajes Favoritos"
+        self.title = NSLocalizedString("title_star" , comment: "")
         
     }
     

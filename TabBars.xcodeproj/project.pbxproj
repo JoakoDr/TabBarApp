@@ -20,6 +20,7 @@
 		A4FBE0242189BDFC002306AC /* PenguinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE0222189BDFC002306AC /* PenguinViewController.xib */; };
 		A4FBE0282189BE1B002306AC /* ColaboracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE0262189BE1B002306AC /* ColaboracionViewController.swift */; };
 		A4FBE0292189BE1B002306AC /* ColaboracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE0272189BE1B002306AC /* ColaboracionViewController.xib */; };
+		A4FBE02D2189C84C002306AC /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE02F2189C84C002306AC /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,10 @@
 		A4FBE0222189BDFC002306AC /* PenguinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinViewController.xib; sourceTree = "<group>"; };
 		A4FBE0262189BE1B002306AC /* ColaboracionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaboracionViewController.swift; sourceTree = "<group>"; };
 		A4FBE0272189BE1B002306AC /* ColaboracionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColaboracionViewController.xib; sourceTree = "<group>"; };
+		A4FBE02C2189C82B002306AC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		A4FBE02E2189C84C002306AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4FBE0302189C84E002306AC /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		A4FBE0352189C8FC002306AC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 				A4FBDFEE2189B783002306AC /* Assets.xcassets */,
 				A4FBDFF02189B783002306AC /* LaunchScreen.storyboard */,
 				A4FBDFF32189B783002306AC /* Info.plist */,
+				A4FBE02F2189C84C002306AC /* Localizable.strings */,
 			);
 			path = TabBars;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 			knownRegions = (
 				en,
 				Base,
+				es,
 			);
 			mainGroup = A4FBDFDB2189B782002306AC;
 			productRefGroup = A4FBDFE52189B782002306AC /* Products */;
@@ -282,6 +289,7 @@
 				A4FBE0192189BDB9002306AC /* StarViewController.xib in Resources */,
 				A4FBE0242189BDFC002306AC /* PenguinViewController.xib in Resources */,
 				A4FBDFF22189B783002306AC /* LaunchScreen.storyboard in Resources */,
+				A4FBE02D2189C84C002306AC /* Localizable.strings in Resources */,
 				A4FBDFEF2189B783002306AC /* Assets.xcassets in Resources */,
 				A4FBE0292189BE1B002306AC /* ColaboracionViewController.xib in Resources */,
 				A4FBE01E2189BDD7002306AC /* TwitchViewController.xib in Resources */,
@@ -353,8 +361,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				A4FBDFF12189B783002306AC /* Base */,
+				A4FBE02C2189C82B002306AC /* es */,
+				A4FBE0352189C8FC002306AC /* en */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A4FBE02F2189C84C002306AC /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4FBE02E2189C84C002306AC /* en */,
+				A4FBE0302189C84E002306AC /* es */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -364,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -424,6 +444,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

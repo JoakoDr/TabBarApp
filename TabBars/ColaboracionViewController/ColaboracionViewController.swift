@@ -12,7 +12,7 @@ class ColaboracionViewController: UIViewController {
         init() {
             super.init(nibName: "ColaboracionViewController", bundle: nil)
             self.tabBarItem.image = UIImage(named:"colaboracion")
-            self.title="Collaborate"
+            self.title = NSLocalizedString("title_collaboration" , comment: "")
             
         }
         

@@ -13,7 +13,7 @@ class TwitchViewController: UIViewController {
     init() {
         super.init(nibName: "TwitchViewController", bundle: nil)
         self.tabBarItem.image = UIImage(named:"twitch")
-        self.title="Twitch"
+        self.title = NSLocalizedString("title_twitch" , comment: "")
         
     }
     
