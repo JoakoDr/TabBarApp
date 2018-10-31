@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		A4FBDFE82189B782002306AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDFE72189B782002306AC /* AppDelegate.swift */; };
-		A4FBDFEA2189B782002306AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDFE92189B782002306AC /* ViewController.swift */; };
-		A4FBDFED2189B782002306AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FBDFEB2189B782002306AC /* Main.storyboard */; };
 		A4FBDFEF2189B783002306AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4FBDFEE2189B783002306AC /* Assets.xcassets */; };
 		A4FBDFF22189B783002306AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4FBDFF02189B783002306AC /* LaunchScreen.storyboard */; };
 		A4FBDFFD2189B783002306AC /* TabBarsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBDFFC2189B783002306AC /* TabBarsTests.swift */; };
 		A4FBE0082189B783002306AC /* TabBarsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE0072189B783002306AC /* TabBarsUITests.swift */; };
+		A4FBE0182189BDB9002306AC /* StarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE0162189BDB9002306AC /* StarViewController.swift */; };
+		A4FBE0192189BDB9002306AC /* StarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE0172189BDB9002306AC /* StarViewController.xib */; };
+		A4FBE01D2189BDD7002306AC /* TwitchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE01B2189BDD7002306AC /* TwitchViewController.swift */; };
+		A4FBE01E2189BDD7002306AC /* TwitchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE01C2189BDD7002306AC /* TwitchViewController.xib */; };
+		A4FBE0232189BDFC002306AC /* PenguinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE0212189BDFC002306AC /* PenguinViewController.swift */; };
+		A4FBE0242189BDFC002306AC /* PenguinViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE0222189BDFC002306AC /* PenguinViewController.xib */; };
+		A4FBE0282189BE1B002306AC /* ColaboracionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4FBE0262189BE1B002306AC /* ColaboracionViewController.swift */; };
+		A4FBE0292189BE1B002306AC /* ColaboracionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A4FBE0272189BE1B002306AC /* ColaboracionViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +42,6 @@
 /* Begin PBXFileReference section */
 		A4FBDFE42189B782002306AC /* TabBars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabBars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FBDFE72189B782002306AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4FBDFE92189B782002306AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A4FBDFEC2189B782002306AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A4FBDFEE2189B783002306AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4FBDFF12189B783002306AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4FBDFF32189B783002306AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +51,14 @@
 		A4FBE0032189B783002306AC /* TabBarsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TabBarsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FBE0072189B783002306AC /* TabBarsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarsUITests.swift; sourceTree = "<group>"; };
 		A4FBE0092189B783002306AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4FBE0162189BDB9002306AC /* StarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarViewController.swift; sourceTree = "<group>"; };
+		A4FBE0172189BDB9002306AC /* StarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StarViewController.xib; sourceTree = "<group>"; };
+		A4FBE01B2189BDD7002306AC /* TwitchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitchViewController.swift; sourceTree = "<group>"; };
+		A4FBE01C2189BDD7002306AC /* TwitchViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwitchViewController.xib; sourceTree = "<group>"; };
+		A4FBE0212189BDFC002306AC /* PenguinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PenguinViewController.swift; sourceTree = "<group>"; };
+		A4FBE0222189BDFC002306AC /* PenguinViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PenguinViewController.xib; sourceTree = "<group>"; };
+		A4FBE0262189BE1B002306AC /* ColaboracionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColaboracionViewController.swift; sourceTree = "<group>"; };
+		A4FBE0272189BE1B002306AC /* ColaboracionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ColaboracionViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,11 @@
 		A4FBDFE62189B782002306AC /* TabBars */ = {
 			isa = PBXGroup;
 			children = (
+				A4FBE0252189BE00002306AC /* ColaboracionViewController */,
+				A4FBE01F2189BDDB002306AC /* PenguinViewController */,
+				A4FBE01A2189BDBE002306AC /* TwitchViewController */,
+				A4FBE0152189BD9D002306AC /* StarViewController */,
 				A4FBDFE72189B782002306AC /* AppDelegate.swift */,
-				A4FBDFE92189B782002306AC /* ViewController.swift */,
-				A4FBDFEB2189B782002306AC /* Main.storyboard */,
 				A4FBDFEE2189B783002306AC /* Assets.xcassets */,
 				A4FBDFF02189B783002306AC /* LaunchScreen.storyboard */,
 				A4FBDFF32189B783002306AC /* Info.plist */,
@@ -123,6 +137,42 @@
 				A4FBE0092189B783002306AC /* Info.plist */,
 			);
 			path = TabBarsUITests;
+			sourceTree = "<group>";
+		};
+		A4FBE0152189BD9D002306AC /* StarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBE0162189BDB9002306AC /* StarViewController.swift */,
+				A4FBE0172189BDB9002306AC /* StarViewController.xib */,
+			);
+			path = StarViewController;
+			sourceTree = "<group>";
+		};
+		A4FBE01A2189BDBE002306AC /* TwitchViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBE01B2189BDD7002306AC /* TwitchViewController.swift */,
+				A4FBE01C2189BDD7002306AC /* TwitchViewController.xib */,
+			);
+			path = TwitchViewController;
+			sourceTree = "<group>";
+		};
+		A4FBE01F2189BDDB002306AC /* PenguinViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBE0212189BDFC002306AC /* PenguinViewController.swift */,
+				A4FBE0222189BDFC002306AC /* PenguinViewController.xib */,
+			);
+			path = PenguinViewController;
+			sourceTree = "<group>";
+		};
+		A4FBE0252189BE00002306AC /* ColaboracionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A4FBE0262189BE1B002306AC /* ColaboracionViewController.swift */,
+				A4FBE0272189BE1B002306AC /* ColaboracionViewController.xib */,
+			);
+			path = ColaboracionViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,9 +279,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FBE0192189BDB9002306AC /* StarViewController.xib in Resources */,
+				A4FBE0242189BDFC002306AC /* PenguinViewController.xib in Resources */,
 				A4FBDFF22189B783002306AC /* LaunchScreen.storyboard in Resources */,
 				A4FBDFEF2189B783002306AC /* Assets.xcassets in Resources */,
-				A4FBDFED2189B782002306AC /* Main.storyboard in Resources */,
+				A4FBE0292189BE1B002306AC /* ColaboracionViewController.xib in Resources */,
+				A4FBE01E2189BDD7002306AC /* TwitchViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,8 +309,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4FBDFEA2189B782002306AC /* ViewController.swift in Sources */,
+				A4FBE0182189BDB9002306AC /* StarViewController.swift in Sources */,
+				A4FBE0282189BE1B002306AC /* ColaboracionViewController.swift in Sources */,
+				A4FBE0232189BDFC002306AC /* PenguinViewController.swift in Sources */,
 				A4FBDFE82189B782002306AC /* AppDelegate.swift in Sources */,
+				A4FBE01D2189BDD7002306AC /* TwitchViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +349,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A4FBDFEB2189B782002306AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A4FBDFEC2189B782002306AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A4FBDFF02189B783002306AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

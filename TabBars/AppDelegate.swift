@@ -16,6 +16,26 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        window = UIWindow (frame: UIScreen.main.bounds)
+        if let window = window {
+            
+            //Creo las variables para cada uno de los ViewControllers
+            let starVC = StarViewController()
+            let twitchVC = TwitchViewController()
+            let penguinVC = PenguinViewController()
+            let collaborateVC = ColaboracionViewController()
+            
+            
+            //Declaro el tabController y le meto el menu
+            let tabController = UITabBarController()
+            let starNavigationController = UINavigationController(rootViewController: starVC)
+            let twitchNavigationController1 = UINavigationController(rootViewController: twitchVC)
+            let penguinNavigationController2 = UINavigationController(rootViewController: penguinVC)
+            let collaborateNavigationController3 = UINavigationController(rootViewController: collaborateVC)
+            tabController.viewControllers = [starNavigationController,twitchNavigationController1,penguinNavigationController2,collaborateNavigationController3]
+            window.rootViewController = tabController
+            window.makeKeyAndVisible()
+        }
         return true
     }
 
